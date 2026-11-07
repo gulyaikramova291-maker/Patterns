@@ -1,6 +1,7 @@
-class Copyable{
-    clone(){
-        throw new Error("Ошибка")
+class Copyable {
+    clone() {
+        throw new Error("clone() method must be implemented");
     }
 }
-module.exports=Copyable
+
+module.exports = Copyable;
